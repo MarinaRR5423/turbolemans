@@ -540,32 +540,17 @@ body::before {
 
 .nosotros-visual {
   position: relative;
-  background: rgba(243, 237, 224, 0.04);
   border: 1px solid rgba(243, 237, 224, 0.15);
   border-radius: var(--radius);
-  padding: 32px;
+  overflow: hidden;
+  aspect-ratio: 5 / 4;
 }
 
-.exploded-art {
-  color: rgba(243, 237, 224, 0.85);
+.nosotros-photo {
   width: 100%;
-  height: auto;
-}
-
-.exploded-art .dim-line {
-  color: var(--racing-cyan);
-  opacity: 0.6;
-}
-
-.wordmark-stamp {
-  position: absolute;
-  top: 24px;
-  right: 28px;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 1.15rem;
-  letter-spacing: 0.02em;
-  color: rgba(243, 237, 224, 0.5);
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
 }
 
 /* ==================================================
