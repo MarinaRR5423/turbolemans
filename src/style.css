@@ -307,7 +307,7 @@ body::before {
 }
 
 .hero-text {
-  max-width: 46ch;
+  max-width: 52ch;
   color: var(--ink-soft);
   font-size: 1.02rem;
   margin: 0 0 32px;
