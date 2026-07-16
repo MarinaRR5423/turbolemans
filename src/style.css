@@ -185,10 +185,16 @@ body::before {
 .logo {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+.logo-icon-img {
+  height: 46px;
+  width: auto;
 }
 
 .logo-img {
-  height: 44px;
+  height: 34px;
   width: auto;
 }
 
