@@ -185,51 +185,15 @@ body::before {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
-.logo-stripes {
-  display: flex;
-  gap: 3px;
-  height: 30px;
+.logo-img {
+  height: 34px;
+  width: auto;
 }
 
-.stripe {
-  width: 5px;
-  height: 100%;
-  transform: skewX(-14deg);
-  border-radius: 1px;
-}
-
-.stripe-a {
-  background: var(--racing-cyan);
-}
-.stripe-b {
-  background: var(--navy);
-}
-.stripe-c {
-  background: var(--racing-red);
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.logo-name {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 1.5rem;
-  letter-spacing: -0.01em;
-}
-
-.logo-role {
-  font-family: var(--font-mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
+.logo-img-full {
+  height: 72px;
 }
 
 .main-nav {
@@ -766,15 +730,6 @@ body::before {
   gap: 24px;
   padding: 28px 32px;
   flex-wrap: wrap;
-}
-
-.footer-bottom .logo-role,
-.footer-bottom .logo-name {
-  color: var(--cream);
-}
-
-.footer-bottom .logo-role {
-  color: rgba(243, 237, 224, 0.55);
 }
 
 .copyright {
