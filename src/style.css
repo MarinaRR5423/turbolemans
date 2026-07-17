@@ -419,6 +419,8 @@ body::before {
   background: var(--cream-deep);
   overflow: hidden;
   padding: 18px 0;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .marquee-track {
@@ -629,9 +631,14 @@ body::before {
 
 .cta-copy {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
   max-width: 480px;
+}
+
+.cta-copy svg {
+  flex-shrink: 0;
+  margin-top: 4px;
 }
 
 .cta-copy h2 {
